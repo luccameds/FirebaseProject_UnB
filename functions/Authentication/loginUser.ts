@@ -1,6 +1,5 @@
 import { signInWithEmailAndPassword } from 'firebase/auth';
-import React from 'react';
-import { auth } from '../config/firebase';
+import { auth } from '../../config/firebase';
 
 interface LoginUserFunctionProps {
   email: string;
